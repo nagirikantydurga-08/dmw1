@@ -1,0 +1,75 @@
+## C Program: WEKA Dataset Analysis
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("WEKA Data Mining Toolkit\n\n");
+
+    printf("Dataset: weather.nominal\n");
+    printf("Number of Instances: 14\n");
+    printf("Number of Attributes: 5\n");
+    printf("Class Attribute: play\n\n");
+
+    printf("Class Distribution:\n");
+    printf("yes = 9\n");
+    printf("no  = 5\n\n");
+
+    printf("Dataset: iris\n");
+    printf("Number of Instances: 150\n");
+    printf("Number of Attributes: 5\n");
+    printf("Class Attribute: class\n\n");
+
+    printf("Class Distribution:\n");
+    printf("Iris-setosa     = 50\n");
+    printf("Iris-versicolor = 50\n");
+    printf("Iris-virginica  = 50\n");
+
+    return 0;
+}
+```
+
+### Output
+
+```text
+WEKA Data Mining Toolkit
+
+Dataset: weather.nominal
+Number of Instances: 14
+Number of Attributes: 5
+Class Attribute: play
+
+Class Distribution:
+yes = 9
+no  = 5
+
+Dataset: iris
+Number of Instances: 150
+Number of Attributes: 5
+Class Attribute: class
+
+Class Distribution:
+Iris-setosa     = 50
+Iris-versicolor = 50
+Iris-virginica  = 50
+
+  Dataset: weather.nominal
+Number of Instances: 14
+Number of Attributes: 5
+Class Attribute: play
+
+Class Distribution:
+yes = 9
+no  = 5
+
+Dataset: iris
+Number of Instances: 150
+Number of Attributes: 5
+Class Attribute: class
+
+Class Distribution:
+Iris-setosa     = 50
+Iris-versicolor = 50
+Iris-virginica  = 50
+
+**Note:** This C program displays predefined dataset information; it does not actually load or visualize ARFF files. The real WEKA experiment must be performed using the WEKA application.
